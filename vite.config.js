@@ -18,7 +18,7 @@ const dirname =
 export default defineConfig({
   // plugins: [vue(), vueDevTools()],
   plugins: [vue(), tailwindcss()],
-  base: "/git-pages-test/",
+  base: "/frontend-generation/",
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
